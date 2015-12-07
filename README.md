@@ -3,6 +3,16 @@ angular-swipe
 
 Simple vertical/horizontal swipe gesture directives and a swipe service for angular js >= 1.4. Small extension of the existing angular $swipe service.
 
+## Fork Info
+
+This is a Fork from marmorkuchen-net/angular-swipe. It has the following extra features/changes:
+1- Vertical swiping can be enabled/disabled by passing a third paramater to the service swipe.bind(elem,{},true/false)
+2- swiping now continutes if the mouse/finger goes out of the element bounds. i.e 'move' handler is called even if the pointer is out. Also 'end' handler fires upon releasing in anywhere in the window.
+
+### Fork -> To do
+1- impelemnt the above features to the directive as well not just the service.
+
+
 ## Install
 
 + Add this line to your *bower.json* dependencies and run *bower install* afterwards.
