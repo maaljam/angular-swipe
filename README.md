@@ -6,7 +6,9 @@ Simple vertical/horizontal swipe gesture directives and a swipe service for angu
 ## Fork Info
 
 This is a Fork from marmorkuchen-net/angular-swipe. It has the following extra features/changes:
+
 1- Vertical swiping can be enabled/disabled by passing a third paramater to the service swipe.bind(elem,{},true/false)
+
 2- swiping now continutes if the mouse/finger goes out of the element bounds. i.e 'move' handler is called even if the pointer is out. Also 'end' handler fires upon releasing in anywhere in the window.
 
 ### Fork -> To do
